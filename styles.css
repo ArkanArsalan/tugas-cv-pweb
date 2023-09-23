@@ -36,6 +36,10 @@ nav a {
     margin-left: 15px;
 }
 
+h2 {
+    margin: 5px 0;
+}
+
 #home {
     display: flex;
     padding: 40px 70px;
@@ -58,4 +62,8 @@ nav a {
 
 ul li {
     margin: 7px;
+}
+
+#contact a {
+    text-decoration: none;
 }
