@@ -1,42 +1,61 @@
-body {
-    background-color: rgb(45, 44, 44);
-}
-
-#cv-border {
-    background-color: white;
-    border-radius: 10px;
-    padding: 100px;
-}
-
-header {
+nav {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
 
-header img {
-    height: 150px;
-    width: 110px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-
-header div {
+#navbar-menu {
     display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+#navbar-menu li {
+    max-width: 100px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+    color:#e7f4fd;
+}
+
+#portofolio-button {
+    margin-left: 15px;
+}
+
+#home {
+    display: flex;
+    padding: 40px 70px;
+    padding-bottom: 0;
+} 
+
+#about, #skill-set-and-tool-set, #education, #awards, #contact {
+    display: flex;
+    padding: 40px 70px;
+    padding-bottom: 0;
     flex-direction: column;
 }
 
-header div h2 {
-    margin: 3px;
-    font-size: 20px;
-}
-
-header h1 {
-    margin: 0;
-}
-
-body {
-    margin: 5% 20%;
+#home img {
+    height: 150px;
+    width: 110px;
+    border-radius: 10px;
+    margin-right: 30px;
 }
 
 ul li {
-    margin: 5px;
+    margin: 7px;
 }
